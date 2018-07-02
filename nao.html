@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+	<html>
+		<header>
+			<title>RASC Robots</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="style.css">
+			<div id="bar">
+				<a href="https://www.usc.edu/"> <img src="pics/usclogo.png" style="height:40" align="right"/></a>
+			</div>
+			<div id= "RASC">
+				<h1><a href="index.html"><img src="pics/rasclogo.svg" style = "width: 10%"/></a> Robotics and Autonmous Systems Center</h1>
+			</div>
+			<script src="tabscript.js"></script>
+			<style type="text/css">
+		 		.growImage {position:relative;width:80%;left:15px;top:15px}
+		 		.growDiv { left: 100px; top: 100px;width:150px;height:150px;position:relative }
+	  		</style>				  		
+			<ul class="tab">
+			  	<li><a href="index.html" class="tablinks" onclick="openCity(event, 'Home')">Home</a></li>
+				<li><a href="about.html" class="tablinks" onclick="openCity(event, 'About')">About</a></li>
+				<li><a href="research.html" class="tablinks" onclick="openCity(event, 'Contact')">Research</a></li>
+				<li><a href="robots.html" class="tablinks" onclick="openCity(event, 'Projects')">Robots</a></li>
+				<li><a href="people.html" class="tablinks" onclick="openCity(event, 'Resume')">People</a></li>
+				<li><a href="education.html" class="tablinks" onclick="openCity(event, 'Blog')">Education</a></li>
+				<li><a href="events.html" class="tablinks" onclick="openCity(event, 'DIY')">Events</a></li>
+				<li><a href="outreach.html" class="tablinks" onclick="openCity(event, 'Photography')">Outreach</a></li>
+			</ul>
+		</header>
+		<body>
+			<script src="tabscript.js"></script>
+			<style type="text/css">
+				.growImage {position:relative;width:80%;left:15px;top:15px}
+				.growDiv { left: 100px; top: 100px;width:150px;height:150px;position:relative }
+			</style>
+			<div id="robotbox">
+				<div class="row">
+					<div class="col-sm-4">
+						<button class="accordion">Flying</button>
+						<div class="panel">
+			  				<a href="ardrone.html">AR.Drone</a><br>
+							<a href="crazyflie.html">Crazyflie</a><br>
+							<a href="hummingbird.html">Hummingbird</a><br>
+							<a href="quadrotor.html">RESL Quadrotor</a><br>
+						</div>
+
+						<button class="accordion">Humanoid</button>
+						<div class="panel">
+			 				<a href="arm-s.html">ARM-S</a><br>
+							<a href="bandit.html">Bandit</a><br>
+							<a href="hermes.html">Hermes</a><br>
+							<a href="maki.html">Maki</a><br>
+							<a href="nao.html">Nao</a><br>
+							<a href="pr2.html">PR2</a><br>
+							<a href="primushead.html">Primus Head</a><br>
+							<a href="sparky.html">Sparky</a><br>
+						</div>
+
+						<button class="accordion">Mobile</button>
+						<div class="panel">
+			 				<a href="ava.html">Ava</a><br>
+							<a href="beobot.html">Beobot</a><br>
+							<a href="create2.html">Create 2</a><br>
+							<a href="pioneers.html">Pioneers</a><br>
+							<a href="romo.html">Romo</a><br>
+							<a href="segwayrmp.html">Segway RMP</a><br>
+							<a href="sphero.html">Sphero</a><br>
+							<a href="turtlebot.html">Turtlebot 2</a><br>
+						</div>
+						<button class="accordion">Motion</button>
+						<div class="panel">
+			  				<a href="barrettwamarm.html">Barret WAM Arm</a><br>
+							<a href="littledog.html">Little Dog</a><br>
+							<a href="masterslave.html">Master/Slave Arm</a><br>
+							<a href="superbot.html">Superbot</a><br>
+						</div>
+
+						<button class="accordion">Remote Presence</button>
+						<div class="panel">
+			  				<a href="giraff.html">Giraff</a><br>
+							<a href="vgo.html">VGo</a><br>
+						</div>
+						<button class="accordion">Squash and Stretch</button>
+						<div class="panel">
+			  				<a href="dragonbot.html">DragonBot</a><br>
+							<a href="mykeepon.html">MyKeepon</a><br>
+						</div>
+						<button class="accordion">Tabletop</button>
+						<div class="panel">
+			 				<a href="dragonbot.html">DragonBot</a><br>
+							<a href="maki.html">Maki</a><br>
+							<a href="mykeepon.html">MyKeepon</a><br>
+							<a href="nao.html">Nao</a><br>
+							<a href="romo.html">Romo</a><br>
+							<a href="sphero.html">Sphero</a><br>
+						</div>
+						<button class="accordion">Water</button>
+						<div class="panel">
+			    			<a href="asv.html">ASV</a><br>
+							<a href="ecomapper.html">EcoMapper</a><br>
+							<a href="slocumglider.html">Slocum Glider</a><br>
+						</div>
+					</div>
+					<script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+					    acc[i].addEventListener("click", function() {
+					        this.classList.toggle("active");
+					        var panel = this.nextElementSibling;
+					        if (panel.style.display === "block") {
+					            panel.style.display = "none";
+					        } else {
+					            panel.style.display = "block";
+					        }
+					    });
+					}
+					</script>
+					<div class="col-sm-8">
+						<div id="description2">
+							<h2>Nao</h2>
+							The NAO is a full-body humanoid robot manufactured by Aldebaran Robtoics. It is approximately 26 in (66 cm) tall with 26 degrees of freedom in the neck, shoulders, elbows, hands, hips, knees, wrists, and ankles. It has a number of sensors, including an IMU, sonar, video, microphones, and force sensors. It has two speakers and colored LEDs in the eyes for expressive output. The USC Robotics Research Lab currently has 12 NAOs, 10 of which are NAO H25 V 4.0.<br>
+							<img src="pics/nao.png" height="500" width="300" /> <br>
+							<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BhdFBLejpNG/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BhdFBLejpNG/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#Repost @uscedu ・・・ Fun at today&#39;s annual robotics open house at @uscviterbi with NAO showing off his dance moves. Nice work by graduate students Becca Funke and Jose Carlos, and undergrad @ericcdeng.</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/uscviterbi/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> USC Viterbi School</a> (@uscviterbi) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-04-12T02:54:27+00:00">Apr 11, 2018 at 7:54pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</body>
+		<footer>
+			<a href="https://viterbischool.usc.edu/"> <img src="pics/viterbi.svg" style="width:22%" align="right" /></a>
+			<div class="row" align="left">
+				<ul class="col-sm-6">
+					<a li class="col-sm-2" href="https://www.facebook.com/rasc.usc"><img src="pics/facebook.png" alt="" width="50" height="50"/></a></li>
+					<a li class="col-sm-2" href="https://twitter.com/RASC_USC"><img src="pics/twitter.png" alt="" width="50" height="50"/></a></li>
+					<a li class="col-sm-2" href="http://uscviterbi.tumblr.com/"><img src="pics/tumblr.png" alt="" width="50" height="50"/></a></li>
+					<p class="col-sm-6">&copy; RASC 2018</p>
+				</ul>
+			</div>
+		</footer>
+	</html>

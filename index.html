@@ -1,7 +1,88 @@
+
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GithubPages. </p>
-</body>
-</html>
+	<html>
+		<header>
+			<title>RASC Robots</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+			<link rel="stylesheet" href="style.css">
+			<div id="bar">
+				<a href="https://www.usc.edu/"> <img src="pics/usclogo.png" style="height:40" align="right"/></a>
+			</div>
+			<div id= "RASC">
+				<h1><a href="index.html"><img src="pics/rasclogo.svg" style = "width: 10%"/></a> Robotics and Autonmous Systems Center</h1>
+			</div>
+			<script src="tabscript.js"></script>
+			<style type="text/css">
+				.growImage {position:relative;width:80%;left:15px;top:15px}
+				.growDiv { left: 100px; top: 100px;width:150px;height:150px;position:relative }
+			</style>
+			<ul class="tab">
+				<li><a href="index.html" class="tablinks" onclick="openCity(event, 'Home')">Home</a></li>
+				<li><a href="about.html" class="tablinks" onclick="openCity(event, 'About')">About</a></li>
+				<li><a href="research.html" class="tablinks" onclick="openCity(event, 'Contact')">Research</a></li>
+				<li><a href="robots.html" class="tablinks" onclick="openCity(event, 'Projects')">Robots</a></li>
+				<li><a href="people.html" class="tablinks" onclick="openCity(event, 'Resume')">People</a></li>
+				<li><a href="education.html" class="tablinks" onclick="openCity(event, 'Blog')">Education</a></li>
+				<li><a href="events.html" class="tablinks" onclick="openCity(event, 'DIY')">Events</a></li>
+				<li><a href="outreach.html" class="tablinks" onclick="openCity(event, 'Photography')">Outreach</a></li>
+			</ul>
+		</header>
+		<body>
+			<div class="row">
+				<div class="col-sm-3" id="people">
+					<ul>
+						<li><h4>Maja J. Matarić</h4></li>
+						<h5><i>Founding Director </i></h5>
+						<li><h4> Gaurav Sukhatme</h4></li>
+						<h5><i>Associate Director</i></h5>
+					</ul>
+				</div>
+				<div class="col-sm-9" id="description"> 
+					<h5>Robotics and Autonomous Systems Center (RASC) was established in fall 2002. It was originally named CRES: Center for Robotics and Embedded Systems. The name was changed in 2013, when the Center was updated and enhanced. It is an interdisciplinary organized research unit (ORU) in the USC Viterbi School of Engineering that focuses on the science and technology of effective, robust, and scalable robotic systems, with broad and far-reaching applications. RASC facilitates interdisciplinary interactions and collaboration through its robotics faculty and its large team of interdisciplinary affiliates and serves as a lynch pin for strategic research areas at USC. RASC projects span the areas of service, humanoid, distributed, reconfigurable, space, and nano robotics and impact a broad spectrum of applications, including assistance, training and rehabilitation, education, environmental monitoring and cleanup, emergency response, homeland security, and entertainment. The Center provides a tight-knit foundation for collaboration and opportunities for education and outreach.</h5>
+				</div>
+			</div>
+			<div class="row" id="roboimg" class="roboimg">
+				<div class="col-sm">
+					<br>
+				</div>
+				<div class="col-sm">
+					<a href="http://robotics.usc.edu/interaction/?l=Home:Home"><img src="pics/robotbuttons-01.png" /></a>
+				</div>
+				<div class="col-sm">
+					<a href="http://robotics.usc.edu/resl/"><img src="pics/robotbuttons-02.png" /></a>
+				</div>
+	
+				<div class="col-sm">
+					<a href="http://www-clmc.usc.edu/~sschaal/"><img src="pics/robotbuttons-04.png" /></a>
+				</div>
+				<div class="col-sm">
+					<a href="http://act.usc.edu/"><img src="pics/copterbutton.png" /></a>
+				</div>
+		
+				<div class="col-sm">
+					<a href="https://www.isi.edu/robots/"><img src="pics/robotbuttons-03.png" /></a>
+				</div>
+				<div class="col-sm">
+					<a href="http://www-bcf.usc.edu/~ksavla/"><img src="pics/ketanbutton.png" /></a>
+				</div>
+				<div class="col-sm">
+					<a href="https://mddf.usc.edu/"><img src="pics/loebbutton.png" /></a>
+				</div>
+				<div class="col-sm">
+					<br>
+				</div>
+			</div>
+		</body>
+		<footer>
+			<a href="https://viterbischool.usc.edu/"> <img src="pics/viterbi.svg" style="width:22%" align="right" /></a>
+			<div class="row" align="left">
+				<ul class="col-sm-6">
+					<a li class="col-sm-2" href="https://www.facebook.com/rasc.usc"><img src="pics/facebook.png" alt="" width="50" height="50"/></a></li>
+					<a li class="col-sm-2" href="https://twitter.com/RASC_USC"><img src="pics/twitter.png" alt="" width="50" height="50"/></a></li>
+					<a li class="col-sm-2" href="http://uscviterbi.tumblr.com/"><img src="pics/tumblr.png" alt="" width="50" height="50"/></a></li>
+					<p class="col-sm-6">&copy; RASC 2018</p>
+				</ul>
+			</div>
+		</footer>
+	</html>
