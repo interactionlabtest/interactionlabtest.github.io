@@ -14,9 +14,7 @@ p1{
 labs:link{
     color: maroon;
 }
-h5{
-    color:gray;
-}
+
 
 .accordion {
     background-color: #eee;
@@ -89,6 +87,7 @@ h5{
 }
 #peoplebox{
     margin: 30px;
+    text-align: center;
 }
 #robotbox{
     margin:30px;
