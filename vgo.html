@@ -36,86 +36,96 @@
 			<div id="robotbox">
 				<div class="row">
 					<div class="col-sm-4">
-						<ul class="vertical-menu">
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Flying')">Flying</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Humanoid')">Humanoid</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Mobile')">Mobile</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Motion')">Motion</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Remote')">Remote Presence</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Squash')">Squash and Stretch</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tabletop')">Tabletop</a></li>
-					  		</div>
-					  		<div class="col-sm">
-					  			<li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Water')">Water</a></li>
-					  		</div>
-						</ul>
-						<div id="Flying" class="tabcontent">
-							<a href="ardrone.html">AR.Drone</a>
-							<a href="crazyflie.html">Crazyflie</a>
-							<a href="hummingbird.html">Hummingbird</a>
-							<a href="quadrotor.html">RESL Quadrotor</a>
+						<button class="accordion">Arms</button>
+						<div class="panel">
+			  				<a href="barrettwamarm.html">Barret WAM Arm</a><br>
+							<a href="masterslave.html">Master/Slave Arm</a><br>
 						</div>
-						<div id="Humanoid" class="tabcontent">
-							<a href="arm-s.html">ARM-S</a>
-							<a href="bandit.html">Bandit</a>
-							<a href="hermes.html">Hermes</a>
-							<a href="maki.html">Maki</a>
-							<a href="nao.html">Nao</a>
-							<a href="pr2.html">PR2</a>
-							<a href="primushead.html">Primus Head</a>
-							<a href="sparky.html">Sparky</a>
+
+						<button class="accordion">Flying</button>
+						<div class="panel">
+			  				<a href="ardrone.html">AR.Drone</a><br>
+							<a href="crazyflie.html">Crazyflie</a><br>
+							<a href="hummingbird.html">Hummingbird</a><br>
+							<a href="quadrotor.html">RESL Quadrotor</a><br>
 						</div>
-						<div id="Mobile" class="tabcontent">
-							<a href="ava.html">Ava</a>
-							<a href="beobot.html">Beobot</a>
-							<a href="create2.html">Create 2</a>
-							<a href="pioneers.html">Pioneers</a>
-							<a href="romo.html">Romo</a>
-							<a href="segwayrmp.html">Segway RMP</a>
-							<a href="sphero.html">Sphero</a>
-							<a href="turtlebot.html">Turtlebot 2</a>
+
+						<button class="accordion">Humanoid</button>
+						<div class="panel">
+			 				<a href="arm-s.html">ARM-S</a><br>
+							<a href="bandit.html">Bandit</a><br>
+							<a href="hermes.html">Hermes</a><br>
+							<a href="ipal.html">iPal</a><br>
+							<a href="maki.html">Maki</a><br>
+							<a href="nao.html">Nao</a><br>
+							<a href="pr2.html">PR2</a><br>
+							<a href="primushead.html">Primus Head</a><br>
+							<a href="sparky.html">Sparky</a><br>
 						</div>
-						<div id="Motion" class="tabcontent">
-							<a href="barrettwamarm.html">Barrett WAM Arm</a>
-							<a href="littledog.html">Little Dog</a>
-							<a href="masterslave.html">Master/Slave Arm</a>
-							<a href="superbot.html">Superbot</a>
+
+						<button class="accordion">Mobile Legged</button>
+						<div class="panel">
+							<a href="littledog.html">Little Dog</a><br>
+							<a href="nao.html">Nao</a><br>
 						</div>
-						<div id="Remote" class="tabcontent">
-							<a href="giraff.html">Giraff</a>
-							<a href="vgo.html">VGo</a>
+
+						<button class="accordion">Mobile Wheeled</button>
+						<div class="panel">
+			 				<a href="ava.html">Ava</a><br>
+							<a href="beobot.html">Beobot</a><br>
+							<a href="create2.html">Create 2</a><br>
+							<a href="pioneers.html">Pioneers</a><br>
+							<a href="romo.html">Romo</a><br>
+							<a href="segwayrmp.html">Segway RMP</a><br>
+							<a href="sphero.html">Sphero</a><br>
+							<a href="turtlebot.html">Turtlebot 3</a><br>
 						</div>
-						<div id="Squash" class="tabcontent">
-							<a href="dragonbot.html">DragonBot</a>
-							<a href="mykeepon.html">MyKeepon</a>
+						
+						<button class="accordion">Reconfigurable</button>
+						<div class="panel">
+							<a href="superbot.html">Superbot</a><br>
 						</div>
-						<div id="Tabletop" class="tabcontent">
-							<a href="dragonbot.html">DragonBot</a>
-							<a href="maki.html">Maki</a>
-							<a href="mykeepon.html">MyKeepon</a>
-							<a href="nao.html">Nao</a>
-							<a href="romo.html">Romo</a>
-							<a href="sphero.html">Sphero</a>
+
+						<button class="accordion">Remote Presence</button>
+						<div class="panel">
+			  				<a href="giraff.html">Giraff</a><br>
+							<a href="vgo.html">VGo</a><br>
+							<a href="ohmni.html">Ohmni</a><br>
 						</div>
-						<div id="Water" class="tabcontent">
-							<a href="asv.html">ASV</a>
-							<a href="ecomapper.html">EcoMapper</a>
-							<a href="slocumglider.html">Slocum Glider</a>
+						<button class="accordion">Squash and Stretch</button>
+						<div class="panel">
+			  				<a href="dragonbot.html">SPRITE</a><br>
+							<a href="mykeepon.html">MyKeepon</a><br>
+						</div>
+						<button class="accordion">Tabletop</button>
+						<div class="panel">
+			 				<a href="dragonbot.html">SPRITE</a><br>
+							<a href="maki.html">Maki</a><br>
+							<a href="mykeepon.html">MyKeepon</a><br>
+						</div>
+						<button class="accordion">Water</button>
+						<div class="panel">
+			    			<a href="asv.html">ASV</a><br>
+							<a href="ecomapper.html">EcoMapper</a><br>
+							<a href="slocumglider.html">Slocum Glider</a><br>
 						</div>
 					</div>
+					<script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+					    acc[i].addEventListener("click", function() {
+					        this.classList.toggle("active");
+					        var panel = this.nextElementSibling;
+					        if (panel.style.display === "block") {
+					            panel.style.display = "none";
+					        } else {
+					            panel.style.display = "block";
+					        }
+					    });
+					}
+					</script>
 					<div class="col-sm-8">
 						<div id="description2">
 							<h2>VGo</h2>
