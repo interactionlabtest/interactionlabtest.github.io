@@ -5,14 +5,16 @@ body {
 h1 {
   color: maroon;
 }
-p {
-  color: gray;
-}
+
 p1{
   color: gold;
 }
 a{
-    color:maroon;
+    color: maroon;
+}
+
+a:hover{
+    color: darkred;
 }
 
 .accordion {
@@ -30,6 +32,10 @@ a{
 
 .active, .accordion:hover {
     background-color: #ccc; 
+}
+
+.activeTab, .tablinks:hover {
+    background-color: white; 
 }
 
 .panel {
