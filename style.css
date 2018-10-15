@@ -14,7 +14,9 @@ p1{
 labs:link{
     color: maroon;
 }
-
+a{
+    color:maroon;
+}
 
 .accordion {
     background-color: #eee;
