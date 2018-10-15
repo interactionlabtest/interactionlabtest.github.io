@@ -306,11 +306,13 @@ footer li img {
 
 .carousel{
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     width: 100%;
+    /*height: 00px;*/
     position: relative;
-    margin-top: 45px;
+    float: top;
+    margin: 15px;
     font-size: 48px;
-    color:#fff;
+    color:lightgray;
     text-align: center;
 }
