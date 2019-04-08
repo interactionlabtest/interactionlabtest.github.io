@@ -83,6 +83,22 @@ a:hover{
     padding-bottom: 120px;
 }
 
+#facultyGrid {
+  height: 100px;
+  display: grid;
+  grid-template-areas: "a a";
+  grid-gap: 10px;
+  grid-auto-columns: 200px;
+}
+
+#affiliatesGrid {
+  height: 100px;
+  display: grid;
+  grid-template-areas: "a a";
+  grid-gap: 10px;
+  grid-auto-columns: 200px;
+}
+
 #labs{
     padding-left: 20px;
     padding-top: 20px;
@@ -90,10 +106,12 @@ a:hover{
     padding-right:20px;
     margin:20px;
 }
+/*
 #peoplebox{
     margin: 30px;
     text-align: center;
 }
+*/
 #robotbox{
     margin:30px;
 }
