@@ -28,13 +28,11 @@
 			</ul>
 		</header>
 		<body>
-			<div id="description2">
-				Our research spans 13 different laboratories and involves over 70 physical robots, ranging from hoppers and helicopters to mobile robot teams and humanoids.<br><br>
-
-				RASC's areas of robotics research include humanoid robotics, socially assistive robotics, distributed robotics, sensor-actuator networks, aerial robotics, marine robotics, human-robot interaction, rehabilitation robotics, robot learning, educational robotics, and space robotics.  The majority of these efforts are interdisciplinary in nature, involving biological inspiration and a variety of application domains ranging from medicine to art.<br><br>
-				Learn more about our research, our robots, and how you can come see the robots in action.
-			</div>
-
+			<script src="tabscript.js"></script>
+			<style type="text/css">
+				.growImage {position:relative;width:80%;left:15px;top:15px}
+				.growDiv { left: 100px; top: 100px;width:150px;height:150px;position:relative }
+			</style>
 			<div id="robotbox">
 				<div class="row">
 					<div class="col-sm-4">
@@ -42,15 +40,6 @@
 						<div class="panel">
 			  				<a href="barrettwamarm.html">Barret WAM Arm</a><br>
 							<a href="masterslave.html">Master/Slave Arm</a><br>
-							<a href="kuka_iiwa.html">KUKA iiwa 7</a><br>
-							<a href="UR5.html">UR5</a><br>
-							<a href="gripper.html">Robotiq 2F-85 Adaptive Gripper</a><br>
-							<a href="Yaskawa.html">Yaskawa Motoman GP12</a><br>
-							<a href="abb_irb120.html">ABB IRB120</a><br>
-							<a href="abb_irb2600.html">ABB IRB2600</a><br>
-							<a href="epsonC3.html">Epson C3</a><br>
-							<a href="epsonS5.html">Epson S5</a><br>
-							<a href="epsonG3.html">Epson G3</a><br>
 						</div>
 
 						<button class="accordion">Flying</button>
@@ -71,7 +60,6 @@
 							<a href="pr2.html">PR2</a><br>
 							<a href="primushead.html">Primus Head</a><br>
 							<a href="sparky.html">Sparky</a><br>
-							<a href="baxter.html">Baxter</a><br>
 						</div>
 
 						<button class="accordion">Mobile Legged</button>
@@ -90,8 +78,6 @@
 							<a href="segwayrmp.html">Segway RMP</a><br>
 							<a href="sphero.html">Sphero</a><br>
 							<a href="turtlebot.html">Turtlebot 3</a><br>
-							<a href="inspector_bot.html">Inspector Bot</a><br>
-							<a href="husky_bot.html">Husky</a><br>
 						</div>
 						
 						<button class="accordion">Reconfigurable</button>
@@ -140,10 +126,15 @@
 					}
 					</script>
 					<div class="col-sm-8">
-						<iframe src="https://player.vimeo.com/video/99269647" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-					</div>		
+						<div id="description2">
+							<h2>Epson S5</h2>
+							Description<br>
+							<img src="pics/arms.png" height="400" width="300" />
+						</div>
+					</div>
 				</div>
 			</div>
+
 		</body>
 		<footer>
 			<a href="https://viterbischool.usc.edu/"> <img src="pics/viterbilogo.png" style="width:22%" align="right" /></a>
